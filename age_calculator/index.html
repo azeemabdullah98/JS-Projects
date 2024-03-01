@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form class="form-container" action="#">
+      <h2 class="heading-secondary">Age Calculator</h2>
+      <div>
+        <label for="full-name">Name</label>
+        <input
+          id="full-name"
+          class="user-name"
+          type="text"
+          placeholder="John Smith"
+          required
+        />
+      </div>
+      <div>
+        <label for="dob">Date of Birth</label>
+        <input id="dob" type="date" required />
+      </div>
+      <button class="btn btn--form check" type="submit">Check Age</button>
+      <p class="display-age"></p>
+    </form>
+    <script src="calcAge.js"></script>
+  </body>
+</html>
