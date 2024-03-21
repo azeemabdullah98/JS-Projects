@@ -113,7 +113,7 @@ tabsContainer.addEventListener('click', function (e) {
 
   // Activate content area
   document
-    .querySelector(`.operations__content--${clicked.dataset.tab}`)
+    .querySelector(`.operations__content--${clicked.dataset.tabName}`)
     .classList.add('operations__content--active');
 });
 
