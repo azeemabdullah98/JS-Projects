@@ -1,0 +1,66 @@
+@media (max-width: 44em) {
+  .left {
+    width: 36rem;
+  }
+  .right {
+    width: 36rem;
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 3.2rem;
+  }
+  .guess {
+    width: 18rem;
+  }
+  .btn {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .left {
+    width: 28rem;
+  }
+  .right {
+    width: 28rem;
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .between {
+    font-size: 1.2rem;
+  }
+  .btn {
+    font-size: 1.5rem;
+  }
+  .number {
+    font-size: 5.4rem;
+    width: 12rem;
+  }
+}
+
+@media (max-width: 30em) {
+  .left {
+    width: 20rem;
+  }
+  .right {
+    width: 20rem;
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .between {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+    padding: 1.8rem 2.6rem;
+  }
+  .guess {
+    width: 15rem;
+    padding: 2.2rem;
+    font-size: 4.6rem;
+  }
+}
